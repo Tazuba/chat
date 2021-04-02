@@ -40,7 +40,7 @@ export default class SetNickname extends React.Component {
     return (
       <div id='set-nickname' className='container'>
         <h3>{created ? 'Creating ' : null}{roomName}</h3>
-        <h5>Set a nickname:</h5>
+        <h5>Enter your name:</h5>
         <form onSubmit={(e) => {e.preventDefault(); this.onSetNickname(nickname)}}>
           <div>
             <input
